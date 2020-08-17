@@ -38,7 +38,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>C:\Users\Nicro\Documents\Calculator\calculator-python\app\images\calc.png</normaloff>../images/calc.png</iconset>
+    <normaloff>C:\Users\Nicro\Documents\Calculator\calculator-python\app\images\icon.png</normaloff>../images/icon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
