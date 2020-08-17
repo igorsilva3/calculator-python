@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>200</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>200</width>
+    <height>280</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>200</width>
+    <height>280</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>10</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Calculadora</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:\Users\Nicro\Documents\Calculator\calculator-python\app\images\calc.png</normaloff>../images/calc.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>280</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>280</height>
+    </size>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>201</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>201</width>
+      <height>291</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>201</width>
+      <height>291</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/*background-color: #E6E6FA;*/
+background-color: #836FFF;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>322</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <widget class="QFrame" name="frame_2">
+        <property name="minimumSize">
+         <size>
+          <width>320</width>
+          <height>289</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>320</width>
+          <height>289</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QWidget" name="gridLayoutWidget_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>181</width>
+           <height>151</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="5" column="0">
+           <widget class="QPushButton" name="btn1">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="btnParent1">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>(</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="btn7">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="2">
+           <widget class="QPushButton" name="btnVirg">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>,</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QPushButton" name="btn3">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="btnClear">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #FF0000;
+background-color: #7A67EE;
+
+</string>
+            </property>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="btn4">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="btnMult">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>*</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="3">
+           <widget class="QPushButton" name="btnResult">
+            <property name="baseSize">
+             <size>
+              <width>0</width>
+              <height>200</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="btn9">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="btn5">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QPushButton" name="btnAdic">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>+</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QPushButton" name="btn2">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="btn8">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="btnDiv">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>/</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QPushButton" name="btnSub">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>-</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0" colspan="2">
+           <widget class="QPushButton" name="btn0">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="btnParent2">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="btn6">
+            <property name="styleSheet">
+             <string notr="true">font: 10pt &quot;Arial&quot;;
+color: #ffffff;
+background-color: #7A67EE;</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLCDNumber" name="display">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>181</width>
+           <height>101</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>181</width>
+           <height>101</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>181</width>
+           <height>101</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border-radius: 10px;
+background-color: #6959CD;
+</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
