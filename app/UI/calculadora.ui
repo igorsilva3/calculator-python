@@ -37,8 +37,8 @@
    <string>Calculadora</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>C:\Users\Nicro\Documents\Calculator\calculator-python\app\images\icon.png</normaloff>../images/icon.png</iconset>
+   <iconset resource="images/resource.qrc">
+    <normaloff>:/icon/icon.png</normaloff>:/icon/icon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -403,7 +403,7 @@ background-color: #6959CD;
   </widget>
  </widget>
  <resources>
-  <include location="resource.qrc"/>
+  <include location="images/resource.qrc"/>
  </resources>
  <connections/>
 </ui>
