@@ -37,8 +37,8 @@
    <string>Calculadora</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="images/resource.qrc">
-    <normaloff>:/icon/icon.png</normaloff>:/icon/icon.png</iconset>
+   <iconset resource="resources/resource.qrc">
+    <normaloff>:/image/icon/icon.png</normaloff>:/image/icon/icon.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -403,7 +403,7 @@ background-color: #6959CD;
   </widget>
  </widget>
  <resources>
-  <include location="images/resource.qrc"/>
+  <include location="resources/resource.qrc"/>
  </resources>
  <connections/>
 </ui>

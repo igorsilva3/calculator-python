@@ -1,18 +1,12 @@
-from app.interface import Application
+from app.program import Calculator
+from PySide2.QtWidgets import QApplication
 import sys
 
-Calculadora = Application(sys.argv)
-
-def main(app):
-    folder = "UI"
-    filename = "calculadora.ui"
-
-    file = app.get_ui_file(folder, filename)
-
-    MainWindow = app.loadUiWidget(file)
+def main():
+    app = QApplication(sys.argv)
+    MainWindow = Calculator()
     MainWindow.show()
-    sys.exit(app.init_app.exec_())
-
+    sys.exit(app.exec_())
 
 if __name__ == "__main__":
-    main(Calculadora)
+    main()
