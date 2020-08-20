@@ -222,14 +222,27 @@ class Ui_MainWindow(object):
 
         self.gridLayout_2.addWidget(self.btn6, 4, 2, 1, 1)
 
-        self.display = QLCDNumber(self.frame_2)
+        self.display = QLabel(self.frame_2)
         self.display.setObjectName(u"display")
         self.display.setGeometry(QRect(10, 10, 181, 101))
         self.display.setMinimumSize(QSize(181, 101))
         self.display.setMaximumSize(QSize(181, 101))
+        font1 = QFont()
+        font1.setFamily(u"Times New Roman")
+        font1.setPointSize(20)
+        font1.setBold(False)
+        font1.setItalic(False)
+        font1.setWeight(9)
+        self.display.setFont(font1)
         self.display.setStyleSheet(u"border-radius: 10px;\n"
+"font: 75 20pt \"MS Shell Dlg 2\";\n"
 "background-color: #6959CD;\n"
+"color: rgb(255, 255, 255);\n"
+"font: 75 20pt \"Times New Roman\";\n"
 "")
+        self.display.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
+        self.display.setMargin(0)
+        self.display.setIndent(5)
 
         self.gridLayout.addWidget(self.frame_2, 1, 0, 1, 1)
 
@@ -245,7 +258,7 @@ class Ui_MainWindow(object):
         self.btn1.setText(QCoreApplication.translate("MainWindow", u"1", None))
         self.btnParent1.setText(QCoreApplication.translate("MainWindow", u"(", None))
         self.btn7.setText(QCoreApplication.translate("MainWindow", u"7", None))
-        self.btnVirg.setText(QCoreApplication.translate("MainWindow", u",", None))
+        self.btnVirg.setText(QCoreApplication.translate("MainWindow", u".", None))
         self.btn3.setText(QCoreApplication.translate("MainWindow", u"3", None))
         self.btnClear.setText(QCoreApplication.translate("MainWindow", u"C", None))
         self.btn4.setText(QCoreApplication.translate("MainWindow", u"4", None))
@@ -261,5 +274,6 @@ class Ui_MainWindow(object):
         self.btn0.setText(QCoreApplication.translate("MainWindow", u"0", None))
         self.btnParent2.setText(QCoreApplication.translate("MainWindow", u")", None))
         self.btn6.setText(QCoreApplication.translate("MainWindow", u"6", None))
+        self.display.setText(QCoreApplication.translate("MainWindow", u"0", None))
     # retranslateUi
 
