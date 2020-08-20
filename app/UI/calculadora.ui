@@ -174,7 +174,7 @@ color: #ffffff;
 background-color: #7A67EE;</string>
             </property>
             <property name="text">
-             <string>,</string>
+             <string>.</string>
             </property>
            </widget>
           </item>
@@ -368,7 +368,7 @@ background-color: #7A67EE;</string>
           </item>
          </layout>
         </widget>
-        <widget class="QLCDNumber" name="display">
+        <widget class="QLabel" name="display">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -389,10 +389,34 @@ background-color: #7A67EE;</string>
            <height>101</height>
           </size>
          </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>20</pointsize>
+           <weight>9</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">border-radius: 10px;
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;
 background-color: #6959CD;
+color: rgb(255, 255, 255);
+font: 75 20pt &quot;Times New Roman&quot;;
 </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+         <property name="margin">
+          <number>0</number>
+         </property>
+         <property name="indent">
+          <number>5</number>
          </property>
         </widget>
        </widget>
