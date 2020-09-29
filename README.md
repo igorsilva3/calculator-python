@@ -74,6 +74,6 @@ With your virtual environment enabled
 Released in 2020 :closed_book: License.
 
 Made with :heart: by [Igor Silva](https://github.com/igorsilva3).
-This project is under the [MIT license](./LICENSE).
+This project is under the [MIT license](./LICENSE.md).
 
 Give a :star: if this project helped you!
