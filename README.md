@@ -71,7 +71,7 @@ With your virtual environment enabled
 
 ## GUI modification 
 
-**If you choose by modify GUI will need generate a Python class and file**
+**If you choose modify GUI will need generate a Python class and file**
 
 - #### Generating a Python class from the .ui file
 	```bash
@@ -81,7 +81,7 @@ With your virtual environment enabled
 	Make sure what the virtual environment this activated.
 	```bash
 	# Generating a Python class
-	(name-of-your-virtual-environment) $ pyside2-uic ./UI/gui.ui > gui.py
+	(name-of-your-virtual-environment) $ pyside2-uic ./UI/calculdora.ui > interface.py
 	```
 	
 	**For more informations acess:** [Using .ui Files (QUiLoader and pyside2-uic)](https://doc.qt.io/qtforpython/tutorials/basictutorial/uifiles.html)
@@ -94,7 +94,7 @@ With your virtual environment enabled
 	Make sure what the virtual environment this activated.
 	```bash
 	# Generating a Python file
-	(name-of-your-virtual-environment) $ pyside2-rcc ./UI/resources/resources.qrc -o resources_rc.py
+	(name-of-your-virtual-environment) $ pyside2-rcc ./UI/resources/resource.qrc -o resource_rc.py
 	```
 	
 	**For more informations acess:** [Using .qrc Files (pyside2-rcc)](https://doc.qt.io/qtforpython/tutorials/basictutorial/qrcfiles.html)
